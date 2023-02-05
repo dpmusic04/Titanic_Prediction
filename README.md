@@ -1,6 +1,6 @@
 # Titanic Prediction
 
-This program predicts the survival of a given passenger in test.csv using a linear regression model that is fit using the passenger characteristics listed in train.csv.  The predictions are output into submissions.csv where 0 is death and 1 is survival.
+This program predicts the survival of a given passenger in test.csv using a linear regression model that is fit using the passenger characteristics listed in train.csv.  The predictions are output into submissions.csv where 0 is death and 1 is survival. The linear regression model was very inaccurate as not everything between the predictor and the response is linear. The conclusions drawn are invalid because of outliers in the data that skew the results from the underlying relationships. Using a deep learning model uncovers non-linear relationships in the data that would be difficult to detect. It is not fixed and it is trained to the scenario that we are trying to solve.
 
 ## Missing Data
 
